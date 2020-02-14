@@ -21,7 +21,7 @@
 應用:Text generation(文本生成)
 應用:MALICIOUS URL RECOGNITION AND DETECTION(惡意網址偵測)
 應用:
-應用:
+應用:Fake News 
 ```
 
 # 參考書目
