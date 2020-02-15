@@ -62,6 +62,8 @@ Neural architecture search (NAS) 自動神經架構搜索
 https://zhuanlan.zhihu.com/p/42924585
 
 https://kknews.cc/zh-tw/tech/opjpgy5.html
+
+https://github.com/D-X-Y/Awesome-NAS
 ```
 ```
 TF之AutoML之AdaNet框架
