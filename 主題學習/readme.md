@@ -18,6 +18,14 @@ https://blog.csdn.net/Jerr__y/article/details/58598296
 ```
 
 ```
+### Language Model
+```
+Word2vec(2013) 
+ https://www.cnblogs.com/iloveai/p/gensim_tutorial2.html
+ https://www.cnblogs.com/iloveai/p/word2vec.html
+GloVe模型
+ https://www.cnblogs.com/iloveai/p/cs224d-lecture3-note.html
+```
 ### Transfer Learning與Pre-Trained Model
 ```
 Google Transformer(2017)
@@ -54,6 +62,11 @@ https://github.com/FakeNewsChallenge
 https://arxiv.org/pdf/1910.14353.pdf
 ```
 ### AUTOML since 2018
+```
+ Automated machine learning (AutoML) aims to find optimal machine learning solutions automatically given a machine learning problem. 
+ It could release the burden of data scientists from the multifarious manual tuning process 
+ and enable the access of domain experts to the off-the-shelf machine learning solutions without extensive experience.
+```
 ```
 自動機器學習（AutoML）和神經架構搜索（NAS）
 原文網址：https://kknews.cc/tech/vo4k4zl.html
@@ -103,6 +116,43 @@ Efficient Neural Architecture Search via Parameter Sharing
 Hieu Pham, Melody Y. Guan, Barret Zoph, Quoc V. Le, Jeff Dean
 (Submitted on 9 Feb 2018 (v1), last revised 12 Feb 2018 (this version, v2))
 https://arxiv.org/abs/1802.03268
+```
+### Review
+```
+arXiv:1908.05557  
+Towards Automated Machine Learning: Evaluation and Comparison of AutoML Approaches and Tools
+Authors: Anh Truong, Austin Walters, Jeremy Goodsitt, Keegan Hines, C. Bayan Bruss, Reza Farivar
+```
+```
+arXiv:1908.00709  
+AutoML: A Survey of the State-of-the-Art
+Authors: Xin He, Kaiyong Zhao, Xiaowen Chu
+```
+```
+arXiv:1907.08392 
+Automated Machine Learning in Practice: State of the Art and Recent Results
+Authors: Lukas Tuggener, Mohammadreza Amirian, Katharina Rombach, Stefan Lörwald, 
+         Anastasia Varlet, Christian Westermann, Thilo Stadelmann
+```
+```
+arXiv:1907.08908 
+Techniques for Automated Machine Learning
+Authors: Yi-Wei Chen, Qingquan Song, Xia Hu
+```
+```
+arXiv:1906.02287  
+Automated Machine Learning: State-of-The-Art and Open Challenges
+Authors: Radwa Elshawi, Mohamed Maher, Sherif Sakr
+```
+```
+arXiv:1904.12054 
+Benchmark and Survey of Automated Machine Learning Frameworks
+Authors: Marc-André Zöller, Marco F. Huber
+```
+```
+arXiv:1907.00909 
+An Open Source AutoML Benchmark
+Authors: Pieter Gijsbers, Erin LeDell, Janek Thomas, Sébastien Poirier, Bernd Bischl, Joaquin Vanschoren
 ```
 ### Auto-Keras(2018)
 ```
@@ -177,6 +227,8 @@ clf.fit(x_train, y_train)
 # Evaluate on the testing data.
 print('Accuracy: {accuracy}'.format(clf.evaluate(x_test, y_test)))
 ```
+
+
 
 ### GOOGLE Cloud AutoML(2018)| iKala Cloud
 ```
@@ -406,9 +458,12 @@ Hands-On-Deep-Learning-Algorithms-with-Python/
 ```
 
 
-#
+# source code modeling and generation
 ```
-
+source code modeling and generation
+Deep Learning for Source Code Modeling and Generation: Models, Applications and Challenges
+Triet H. M. Le, Hao Chen, M. Ali Babar
+https://arxiv.org/abs/2002.05442
 ```
 
 
