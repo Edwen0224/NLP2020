@@ -3,6 +3,58 @@
 深度學習的發展歷史
 http://www2.econ.iastate.edu/tesfatsi/DeepLearningInNeuralNetworksOverview.JSchmidhuber2015.pdf
 ```
+# 學習主題
+### 基礎技術:RNN LSTM GRU
+```
+colah's blog
+Understanding LSTM Networks Posted on August 27, 2015
+http://colah.github.io/posts/2015-08-Understanding-LSTMs/
+https://blog.csdn.net/menc15/article/details/71271566
+https://blog.csdn.net/Jerr__y/article/details/58598296
+```
+```
+```
+### 後續發展
+```
+
+```
+### Transfer Learning與Pre-Trained Model
+```
+Google Transformer(2017)
+BERT [Devlin et al., 2018], 
+
+GPT [Radford et al., 2019], XLNet [Yang et al., 2019],
+
+ERNIE(Enhanced Representation through kNowledge IntEgration)[2019]
+
+自然語言處理標竿2019最後一波測試，百度打敗微軟、Google
+百度的預訓練語言模型ERNIE，在GLUE平台2019年底最後一次16項包含中英文的自然語言處理測試中拿下第一，
+表現優於Google、微軟和卡內基美隆大學
+文/林妍溱 | 2020-01-01發表
+https://www.ithome.com.tw/news/135127
+```
+### 
+```
+benchmarks: GLUE [Wang et al., 2018] and RACE [Lai et al., 2017] 
+GLUE leaderboard: https://gluebenchmark.com/leaderboard/, 
+RACE leaderboard: http://www.qizhexie.
+com/data/RACE_leaderboard.html
+```
+```
+GLUE（General Language Understanding Evaluation）是知名的自然語言理解（NLU）多任務標竿測試和分析平台，
+包含9項測試，像是聽取句子中的人名和組織名，或是聽句子中的同音異形字等等。
+
+```
+```
+Fake News Challenge Stage 1 (FNC-1)
+http://www.fakenewschallenge.org/
+
+https://github.com/FakeNewsChallenge
+
+https://arxiv.org/pdf/1910.14353.pdf
+
+```
+
 
 ### 2019_RNN實戰主題
 ```
@@ -93,20 +145,7 @@ https://www.jianshu.com/p/e2d13d058ac6
 ```
 
 ```
-# 基礎技術:RNN LSTM GRU
-```
-colah's blog
-Understanding LSTM Networks Posted on August 27, 2015
-http://colah.github.io/posts/2015-08-Understanding-LSTMs/
-https://blog.csdn.net/menc15/article/details/71271566
-https://blog.csdn.net/Jerr__y/article/details/58598296
-```
-```
-```
-# 後續發展
-```
 
-```
 # NLP應用1:TextClassification 文本分類
 ```
 TextClassification 文本分類的意義
