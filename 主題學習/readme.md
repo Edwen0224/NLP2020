@@ -11,27 +11,54 @@ Understanding LSTM Networks Posted on August 27, 2015
 http://colah.github.io/posts/2015-08-Understanding-LSTMs/
 https://blog.csdn.net/menc15/article/details/71271566
 https://blog.csdn.net/Jerr__y/article/details/58598296
+
+Andrej Karpathy blog
+The Unreasonable Effectiveness of Recurrent Neural Networks  May 21, 2015
+http://karpathy.github.io/2015/05/21/rnn-effectiveness/
+https://github.com/karpathy/char-rnn
+
+https://blog.csdn.net/mpk_no1/article/details/72875185
 ```
-```
-```
+
 ### 後續發展
 ```
-
+雙向LSTM(Bi-directional LSTM)
+https://blog.csdn.net/fendouaini/article/details/80198994
 ```
-### Language Model
+### 機器翻譯    Machine Translation
+### Language Model 
 ```
+NNLM(Neural Network Language Model)(2003)
+    A Neural Probabilistic Language Model(2003)
+    
 Word2vec(2013) 
+    Distributed Representations of Words and Phrases and their Compositionality(2013)
  https://www.cnblogs.com/iloveai/p/gensim_tutorial2.html
  https://www.cnblogs.com/iloveai/p/word2vec.html
+ 
 GloVe模型
  https://www.cnblogs.com/iloveai/p/cs224d-lecture3-note.html
+
+FastText(Application Level) - Sentence Classification
+  Bag of Tricks for Efficient Text Classification(2016)
 ```
-### Transfer Learning與Pre-Trained Model
+
+### Attention Mechanism
 ```
+Seq2Seq(2014)
+    Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation(2014)
+Seq2Seq with Attention - Translate
+    Neural Machine Translation by Jointly Learning to Align and Translate(2014)
+```
+### Transformer Model(2017) and beyond
+```
+Transfer Learning與Pre-Trained Model
 Google Transformer(2017)
+
 BERT [Devlin et al., 2018], 
 
-GPT [Radford et al., 2019], XLNet [Yang et al., 2019],
+GPT [Radford et al., 2019], 
+XLNet [Yang et al., 2019],
 
 ERNIE(Enhanced Representation through kNowledge IntEgration)[2019]
 
@@ -40,6 +67,10 @@ ERNIE(Enhanced Representation through kNowledge IntEgration)[2019]
 表現優於Google、微軟和卡內基美隆大學
 文/林妍溱 | 2020-01-01發表
 https://www.ithome.com.tw/news/135127
+```
+```
+ELMO, BERT, GPT
+https://www.youtube.com/watch?v=UYPa347-DdE
 ```
 ### 
 ```
