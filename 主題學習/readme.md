@@ -53,9 +53,54 @@ https://github.com/FakeNewsChallenge
 
 https://arxiv.org/pdf/1910.14353.pdf
 ```
-### AUTOML
+### AUTOML since 2018
 ```
+自動機器學習（AutoML）和神經架構搜索（NAS）
+原文網址：https://kknews.cc/tech/vo4k4zl.html
+
 Neural architecture search (NAS) 自動神經架構搜索
+https://zhuanlan.zhihu.com/p/42924585
+
+https://kknews.cc/zh-tw/tech/opjpgy5.html
+```
+```
+TF之AutoML之AdaNet框架
+
+相關論文：《 AdaNet: Adaptive Structural Learning of Artificial Neural Networks》
+論文地址：http://proceedings.mlr.press/v70/cortes17a/cortes17a.pdf
+Github 專案地址：https://github.com/tensorflow/adanet
+教程 notebook：https://github.com/tensorflow/adanet/tree/v0.1.0/adanet/examples/tutorials
+```
+```
+自动机器学习工具全景图：精选22种框架，解放炼丹师
+关注前沿科技 量子位 2018-08-22
+Automatic Machine Learning (AutoML) Landscape Survey
+https://medium.com/georgian-impact-blog/automatic-machine-learning-aml-landscape-survey-f75c3ae3bbf2
+```
+```
+比谷歌AutoML快110倍，全流程自動機器學習平台應該是這樣的
+by 行動貝果 MoBagel Inc.
+```
+#### NASNet search space(2017)
+```
+Learning Transferable Architectures for Scalable Image Recognition
+Barret Zoph, Vijay Vasudevan, Jonathon Shlens, Quoc V. Le
+(Submitted on 21 Jul 2017 (v1), last revised 11 Apr 2018 (this version, v4))
+https://arxiv.org/abs/1707.07012
+```
+#### PNAS(2017)
+```
+Progressive Neural Architecture Search
+Chenxi Liu, Barret Zoph, Maxim Neumann, Jonathon Shlens, Wei Hua, Li-Jia Li, Li Fei-Fei, Alan Yuille, Jonathan Huang, Kevin Murphy
+(Submitted on 2 Dec 2017 (v1), last revised 26 Jul 2018 (this version, v3))
+https://arxiv.org/abs/1712.00559
+```
+#### ENAS(2018)
+```
+Efficient Neural Architecture Search via Parameter Sharing
+Hieu Pham, Melody Y. Guan, Barret Zoph, Quoc V. Le, Jeff Dean
+(Submitted on 9 Feb 2018 (v1), last revised 12 Feb 2018 (this version, v2))
+https://arxiv.org/abs/1802.03268
 ```
 ### Auto-Keras(2018)
 ```
@@ -65,6 +110,18 @@ Haifeng Jin, Qingquan Song, Xia Hu
 https://arxiv.org/abs/1806.10282
 
 https://autokeras.com/
+
+https://autokeras.com/docker/
+
+https://www.itread01.com/content/1542451324.html
+```
+
+```
+Auto-Keras Docker
+
+docker pull garawalid/autokeras:latest
+
+docker run -it --shm-size 2G garawalid/autokeras /bin/bash
 ```
 ```
 pip3 install autokeras
@@ -119,7 +176,7 @@ clf.fit(x_train, y_train)
 print('Accuracy: {accuracy}'.format(clf.evaluate(x_test, y_test)))
 ```
 
-### GOOGLE Cloud AutoML| iKala Cloud
+### GOOGLE Cloud AutoML(2018)| iKala Cloud
 ```
 【Next舊金山直擊】李飛飛：AutoML Vision進入公開測試，同時推出兩項AutoML新服務：自然語言理解和翻譯自動客製建模服務
 Google宣布推出了兩項AutoML新服務，
@@ -185,7 +242,6 @@ Google 資訊安全白皮書：Google Infrastructure Security(2017)
 https://cloud.google.com/security/infrastructure/design
 
 https://blog.gcp.expert/google-infrastructure-security/
-
 ```
 
 ### 2019_RNN實戰主題
