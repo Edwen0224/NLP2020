@@ -52,9 +52,141 @@ http://www.fakenewschallenge.org/
 https://github.com/FakeNewsChallenge
 
 https://arxiv.org/pdf/1910.14353.pdf
+```
+### AUTOML
+```
+Neural architecture search (NAS) 自動神經架構搜索
+```
+### Auto-Keras(2018)
+```
+Auto-Keras: An Efficient Neural Architecture Search System
+Haifeng Jin, Qingquan Song, Xia Hu
+(Submitted on 27 Jun 2018 (v1), last revised 26 Mar 2019 (this version, v3))
+https://arxiv.org/abs/1806.10282
 
+https://autokeras.com/
+```
+```
+pip3 install autokeras
+AutoKeras is only compatible with Python 3 and TensorFlow >= 2.1.0 
+```
+```
+import numpy as np
+import tensorflow as tf
+
+import autokeras as ak
+
+
+def imdb_raw():
+    max_features = 20000
+    index_offset = 3  # word index offset
+
+    (x_train, y_train), (x_test, y_test) = tf.keras.datasets.imdb.load_data(
+        num_words=max_features,
+        index_from=index_offset)
+    x_train = x_train
+    y_train = y_train.reshape(-1, 1)
+    x_test = x_test
+    y_test = y_test.reshape(-1, 1)
+
+    word_to_id = tf.keras.datasets.imdb.get_word_index()
+    word_to_id = {k: (v + index_offset) for k, v in word_to_id.items()}
+    word_to_id["<PAD>"] = 0
+    word_to_id["<START>"] = 1
+    word_to_id["<UNK>"] = 2
+
+    id_to_word = {value: key for key, value in word_to_id.items()}
+    x_train = list(map(lambda sentence: ' '.join(
+        id_to_word[i] for i in sentence), x_train))
+    x_test = list(map(lambda sentence: ' '.join(
+        id_to_word[i] for i in sentence), x_test))
+    x_train = np.array(x_train, dtype=np.str)
+    x_test = np.array(x_test, dtype=np.str)
+    return (x_train, y_train), (x_test, y_test)
+
+
+# Prepare the data.
+(x_train, y_train), (x_test, y_test) = imdb_raw()
+print(x_train.shape)  # (25000,)
+print(y_train.shape)  # (25000, 1)
+print(x_train[0][:50])  # <START> this film was just brilliant casting <UNK>
+
+# Initialize the TextClassifier
+clf = ak.TextClassifier(max_trials=3)
+# Search for the best model.
+clf.fit(x_train, y_train)
+# Evaluate on the testing data.
+print('Accuracy: {accuracy}'.format(clf.evaluate(x_test, y_test)))
 ```
 
+### GOOGLE Cloud AutoML| iKala Cloud
+```
+【Next舊金山直擊】李飛飛：AutoML Vision進入公開測試，同時推出兩項AutoML新服務：自然語言理解和翻譯自動客製建模服務
+Google宣布推出了兩項AutoML新服務，
+這是一個可以客製出自己的自然語言理解模型的新服務AutoML Natural Language。
+另外還有一項AutoML Translation，可以客製出自己的翻譯機器學習模型。
+文/王宏仁 | 2018-07-25發表 https://www.ithome.com.tw/news/124750
+
+https://cloud.google.com/automl/docs/?hl=zh-tw
+```
+```
+https://cloud.google.com/automl/
+
+Cloud AutoML
+即使您對機器學習所知不多，也可透過 Cloud AutoML 運用機器學習的強大功能。
+您可以使用 AutoML，以 Google 機器學習功能為基礎，建立與您的業務需求完美契合的自訂機器學習模型，然後將這些模型整合到您的應用程式和網站中。
+
+您可以使用下列 AutoML 產品建立自訂機器學習模型：
+
+Cloud AutoML Natural Language
+AutoML Natural Language 分類
+您可以運用 AutoML Natural Language 分類功能訓練專屬的自訂機器學習模型，按照您定義的標籤來分類文件。
+
+AutoML Natural Language 實體擷取
+您可以運用 AutoML Natural Language 實體擷取功能訓練專屬的自訂機器層級模型，藉此辨識英語文字中的一組自訂實體。
+
+AutoML Natural Language 情緒分析
+您可以運用 AutoML Natural Language 情緒分析功能訓練專屬的自訂機器層級模型，以便分析英語文字中的語氣。
+
+
+Cloud AutoML Tables
+AutoML Tables
+AutoML Tables 讓您的整個團隊都能自動建構及部署最先進的結構化資料機器學習模型，大幅提升作業速度，並擴大處理規模。
+
+
+Cloud AutoML Translation
+AutoML Translation
+您可以運用 AutoML Translation 建立專屬的自訂翻譯模型，使翻譯查詢作業可傳回網域特定的結果。
+
+Cloud AutoML Video Intelligence
+Cloud AutoML Video Intelligence 分類
+您可以運用 AutoML Video Intelligence 分類功能訓練機器學習模型，按照您自行定義的標籤來分類影片中的鏡頭和片段。
+
+Cloud AutoML Video Intelligence 物件追蹤
+您可以運用 Cloud AutoML Video Intelligence 物件追蹤功能訓練機器學習模型，追蹤影片中特定物件的移動情形。
+
+Cloud AutoML Vision
+AutoML Vision 分類
+您可以運用 AutoML Vision 分類功能訓練專屬的自訂機器學習模型，按照您定義的標籤來分類圖片。
+
+AutoML Vision Edge
+您可以運用 AutoML Vision 訓練專屬的自訂機器學習模型，按照您定義的標籤來分類圖片。
+
+AutoML Vision 物件偵測
+您可以運用 AutoML Vision 物件偵測功能訓練專屬的自訂機器層級模型，
+藉此偵測與擷取多個物件，並提供各個物件的相關資訊，包括物件在圖片中的位置。
+```
+```
+Google 機器學習三大服務：AutoML, Cloud ML Engine, ML API 介紹與比較
+https://blog.gcp.expert/google-cloud-automl-ml-engine-ml-api/
+```
+```
+Google 資訊安全白皮書：Google Infrastructure Security(2017)
+https://cloud.google.com/security/infrastructure/design
+
+https://blog.gcp.expert/google-infrastructure-security/
+
+```
 
 ### 2019_RNN實戰主題
 ```
@@ -119,7 +251,12 @@ https://www.cnblogs.com/iloveai/p/cs224d-lecture1-note.html
 ```
 # NLP工具與模組
 ```
+Stanford 團隊出的 CoreNLP
+https://stanfordnlp.github.io/CoreNLP/index.html
 
+Manning, Christopher D., Mihai Surdeanu, John Bauer, Jenny Finkel, Steven J. Bethard, and David McClosky. 2014. 
+The Stanford CoreNLP Natural Language Processing Toolkit 
+In Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics: System Demonstrations, pp. 55-60.
 ```
 ### NLP工具與模組:Gensim
 ```
