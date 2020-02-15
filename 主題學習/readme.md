@@ -418,10 +418,12 @@ https://www.cnblogs.com/iloveai/p/gensim_tutorial2.html
 使用gensim訓練維琪百科中文語料wordvec模型
 https://www.jianshu.com/p/e2d13d058ac6
 ```
-### 
-
+### paperswithcode  https://paperswithcode.com/sota
 ```
-
+https://paperswithcode.com/task/text-generation
+https://paperswithcode.com/task/sentiment-analysis
+https://paperswithcode.com/task/text-style-transfoer
+https://paperswithcode.com/task/language-modelling
 ```
 
 # NLP應用1:TextClassification 文本分類
