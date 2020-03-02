@@ -1,10 +1,12 @@
 # 2020
 ```
+[微軟團隊]
 UniLMv2: Pseudo-Masked Language Models for Unified Language Model Pre-Training
 Hangbo Bao, Li Dong, Furu Wei, Wenhui Wang, Nan Yang, Xiaodong Liu, Yu Wang, Songhao Piao, Jianfeng Gao, Ming Zhou, Hsiao-Wuen Hon
 (Submitted on 28 Feb 2020)
 
 https://arxiv.org/abs/2002.12804
+https://github.com/microsoft/unilm
 
 We propose to pre-train a unified language model for both autoencoding 
 and partially autoregressive language modeling tasks using a novel training procedure, 
@@ -27,13 +29,38 @@ Our experiments show that the unified language models pre-trained using PMLM ach
 on a wide range of natural language understanding and generation tasks across several widely used benchmarks.
 ```
 
-#
+```
+UniViLM: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation
+Huaishao Luo, Lei Ji, Botian Shi, Haoyang Huang, Nan Duan, Tianrui Li, Xilin Chen, Ming Zhou
+(Submitted on 15 Feb 2020)
+https://arxiv.org/abs/2002.06353
+
+We propose UniViLM: a Unified Video and Language pre-training Model for multimodal understanding and generation. 
+
+Motivated by the recent success of BERT based pre-training technique for NLP and image-language tasks, 
+VideoBERT and CBT are proposed to exploit BERT model for video and language pre-training using narrated instructional videos. 
+
+Different from their works which only pre-train understanding task, 
+we propose a unified video-language pre-training model for both understanding and generation tasks. 
+
+Our model comprises of 4 components including two single-modal encoders, 
+a cross encoder and a decoder with the Transformer backbone. 
+
+We first pre-train our model to learn the universal representation for both video and language on a large instructional video dataset. 
+
+Then we fine-tune the model on two multimodal tasks including understanding task (text-based video retrieval) 
+and generation task (multimodal video captioning). 
+
+Our extensive experiments show that our method can improve the performance of both understanding and generation tasks and achieves the state-of-the art results.
 ```
 
-```
-
 #
 ```
+AdvCodec: Towards A Unified Framework for Adversarial Text Generation
+Boxin Wang, Hengzhi Pei, Han Liu, Bo Li
+(Submitted on 22 Dec 2019)
+https://arxiv.org/abs/1912.10375
+
 
 ```
 
