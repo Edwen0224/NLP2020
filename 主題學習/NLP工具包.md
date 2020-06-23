@@ -1,6 +1,11 @@
 #
 ```
-
+·NLTK（Python自然語言工具包）用於諸如標記化、詞形還原、詞幹化、解析、POS標注等任務。該庫具有幾乎所有NLP任務的工具。
+·Spacy是NLTK的主要競爭對手。這兩個庫可用於相同的任務。
+·Scikit-learn為機器學習提供了一個大型庫。此外還提供了用於文本預處理的工具。
+·Gensim是一個主題和向量空間建模、文檔集合相似性的工具包。
+·Pattern庫的一般任務是充當Web挖掘模組。因此，它僅支援自然語言處理（NLP）作為輔助任務。
+·Polyglot是自然語言處理（NLP）的另一個Python工具包。它不是很受歡迎，但也可以用於各種NLP任務。
 ```
 ```
 https://thoughts.blueplanet.com.tw/home
