@@ -20,10 +20,10 @@ Gate NLP library
 ```
 ### 下午
 ```
-Word embbedding
+Word embbedding and word2vec
 text classification: binary classification vs multi-class classification
-中文自然語言處理
 ```
+# 中文自然語言處理
 ```
 以 jieba 與 gensim 探索文本主題：五月天人生無限公司歌詞分析 (I)
 https://github.com/youngmihuang/lyrics_application
