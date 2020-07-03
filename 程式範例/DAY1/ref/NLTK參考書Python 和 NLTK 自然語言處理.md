@@ -24,6 +24,8 @@ https://github.com/PacktPublishing/Natural-Language-Processing-with-Python-Cookb
 Python 和 NLTK 自然語言處理 (Natural Language Processing: Python and NLTK)
 [印度] 尼天·哈登尼亞（Nitin Hardeniya）雅各布·帕金斯（Jacob Perkins） 
 迪蒂·喬普拉（Deepti Chopra） 尼什·斯喬希 人民郵電2019-06-01
+
+https://github.com/PacktPublishing/Natural-Language-Processing-Python-and-NLTK
 ```
 # 模塊1 NLTK基礎知識
 ```
