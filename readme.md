@@ -5,12 +5,13 @@
 ```
 NLP
 NLP實戰: NTLK
+Tensorflow 2.x 與Keras
 ```
 ### 下午
 ```
-Tensorflow 2.x 與Keras
 Word embbedding
 text classification: binary classification vs multi-class classification
+中文自然語言處理
 ```
 
 
