@@ -1,6 +1,10 @@
-#
+# ref
 ```
 https://github.com/crownpku/Awesome-Chinese-NLP
+```
+```
+The Top 30 Chinese Nlp Open Source Projects
+https://awesomeopensource.com/projects/chinese-nlp
 ```
 # 中文語料庫 brightmart/ nlp_chinese_corpus
 ```
