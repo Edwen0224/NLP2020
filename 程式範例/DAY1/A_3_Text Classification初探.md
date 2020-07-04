@@ -26,7 +26,7 @@ def plot(history_dict, keys, title=None, xyLabel=[], ylim=(), size=()):
     plt.legend(keys, loc='best') # 顯示圖例 (會以 key 為每條線的說明)
     plt.show()  # 顯示出畫好的圖
 ```
-#
+# 二元分類
 ```
 from tensorflow.keras.datasets import imdb    #← 從 keras.datasets 套件中匯入 imdb
 (a_train, b_train),(a_test, b_test)= imdb.load_data(num_words=10000) # 載入 IMDB
@@ -136,7 +136,7 @@ loss, acc = model.evaluate(x_test, y_test, verbose=2)  # 用測試資料評估�
 print('準確率：', acc)
 ```
 
-#
+# 多元分類:依據不同主題分類各種新聞
 ```
 from tensorflow.keras.datasets import reuters  # 匯入 reuters 資料集
 
