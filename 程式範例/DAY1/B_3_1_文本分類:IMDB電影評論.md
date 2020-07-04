@@ -2,6 +2,8 @@
 ```
 https://www.tensorflow.org/tutorials/keras/text_classification
 中文版
+
+https://www.jishuwen.com/d/2O0H/zh-tw
 ```
 
 ```
