@@ -14,9 +14,46 @@ A對應的向量為[0.1 0.6 -0.5]，B對應的向量為[-0.2 0.9 0.7]  （此處
 ```
 # word embedding前世今生
 ```
+詞的分散式表示distributed representation
+傳統的獨熱表示（ one-hot representation）僅僅將詞符號化，不包含任何語義資訊。
+如何將語義融入到詞表示中？
+Harris 在 1954 年提出的分佈假說（ distributional hypothesis）為這一設想提供了理論基礎：
+上下文相似的詞，其語義也相似。
+
+Firth 在 1957 年對分佈假說進行了進一步闡述和明確：
+詞的語義由其上下文決定（ a word is characterized by thecompany it keeps）。
+
+到目前為止，基於分佈假說的詞表示方法，
+根據建模的不同，主要可以分為三類：
+基於矩陣的分佈表示、
+基於聚類的分佈表示和
+基於神經網路的分佈表示。
+
+儘管這些不同的分佈表示方法使用了不同的技術手段獲取詞表示，
+但由於這些方法均基於分佈假說，
+它們的核心思想也都由兩部分組成：
+一、選擇一種方式描述上下文；
+二、選擇一種模型刻畫某個詞（下文稱“目標詞”）與其上下文之間的關係。
+
+作者：Scofield
+連結：https://www.zhihu.com/question/32275069/answer/301428835
+```
+
+```
 2000年 -- 開始發展
+
+2001年， Bengio 等人正式提出神經網路語言模型（ Neural Network Language Model ，NNLM），
+該模型在學習語言模型的同時，也得到了詞向量。
+所以請注意一點：詞向量可以認為是神經網路訓練語言模型的副產品。
+
 2003年 -- 出現了相關系統敘述此方法的著作："A Neural Probabilistic Language Model". 
-doi:10.1007/3-540-33486-6_6.
+Y. Bengio, R. Ducharme, P. Vincent, and C. Janvin. 
+A neural probabilistic language model.
+JMLR, 3:1137–1155, 2003.
+
+A Survey on Neural Network Language Models
+Kun Jing, Jungang Xu
+https://arxiv.org/abs/1906.03591
 
 2009年 -- 高維資料的降維方法 
 Roweis, S. T., & Saul, L. K. (2000). 
@@ -24,6 +61,31 @@ Nonlinear Dimensionality Reduction by Locally Linear Embedding. Science, 290(550
 Retrieved from http://science.sciencemag.org/content/290/5500/2323
 
 2013年 -- word2dec出現。這是由Tomas Mikolov帶領的穀歌團隊編寫的toolkit
+T. Mikolov and G. Zweig. 
+Context dependent recurrent neural network language model.
+In IEEE SLT, pages 234–239, 2012.
+
+T. Mikolov, M. Karafiat, L. Burget, ´ J. Cernocky, and S. Khudanpur. 
+Recurrent neural network based language model. 
+In INTERSPEECH, pages 1045–1048, 2010.
+
+T. Mikolov, S. Kombrink, L. Burget, J. Cernocky, and S. Khudanpur. 
+Extensions of recurrent ´neural network language model. 
+In Proc. of IEEE ICASSP, pages 5528–5531, 2011.
+
+T. Mikolov, S. Kombrink, A. Deoras, and L. Burget. 
+RNNLM - Recurrent Neural Network Language Modeling Toolkit. 
+In IEEE ASRU, page 4, 2011.
+
+T. Mikolov, I. Sutskever, A. Deoras, H. Le, and S. Kombrink. 
+Subword Language Modeling With Neural Networks. 2012.
+
+T. Mikolov, K. Chen, G. Corrado, and J. Dean. 
+Efficient estimation of word representations in vector space. 
+CoRR, abs/1301.3781, 2013
+
+
+
 
 2017年 -- 機器可以學到語言中的深意(可能算不上重要進展，但至少是篇有意思的文章)。
 Caliskan-islam, A., Bryson, J. J., & Narayanan, A. (2017). 
