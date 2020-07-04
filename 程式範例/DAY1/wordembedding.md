@@ -60,6 +60,14 @@ Roweis, S. T., & Saul, L. K. (2000).
 Nonlinear Dimensionality Reduction by Locally Linear Embedding. Science, 290(5500). 
 Retrieved from http://science.sciencemag.org/content/290/5500/2323
 
+神經網路語言模型  https://www.zhihu.com/question/32275069
+a) Neural Network Language Model ，NNLM
+b) Log-Bilinear Language Model， LBL
+c) Recurrent Neural Network based Language Model，RNNLM
+d) Collobert 和 Weston 在2008 年提出的 C&W 模型
+e) Mikolov 等人提出了 CBOW（ Continuous Bagof-Words）和 Skip-gram 模型
+
+
 2013年 -- word2dec出現。這是由Tomas Mikolov帶領的穀歌團隊編寫的toolkit
 T. Mikolov and G. Zweig. 
 Context dependent recurrent neural network language model.
