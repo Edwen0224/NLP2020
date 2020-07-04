@@ -1,8 +1,10 @@
-#
+# 文本分類:IMDB電影評論
 ```
 https://www.tensorflow.org/tutorials/keras/text_classification
 中文版
 
+https://geektutu.com/post/tf2doc-ml-basic-text.html
+https://blog.csdn.net/weixin_41753033/article/details/90815215
 https://www.jishuwen.com/d/2O0H/zh-tw
 ```
 
