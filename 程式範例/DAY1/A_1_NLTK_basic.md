@@ -398,12 +398,9 @@ Python自然語言處理 NLTK 庫用法入門教程【經典】
 https://www.itread01.com/article/1529980432.html
 ```
 
-
-#
 ```
-
-
-
+NLTK Python Tutorial (Natural Language Toolkit)
+https://data-flair.training/blogs/nltk-python-tutorial/
 ```
 
 
