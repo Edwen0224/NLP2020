@@ -5,7 +5,7 @@ https://www.tensorflow.org/tutorials/load_data/text
 ```
 # 使用 tf.data 載入文本資料
 ```
-本教程提供了一個如何使用 tf.data.TextLineDataset`來載入文字檔的示例。
+本教程提供了一個如何使用 tf.data.TextLineDataset來載入文字檔的示例。
 
 TextLineDataset 通常被用來以文字檔構建資料集（原文件中的一行為一個樣本) 。
 這適用於大多數的基於行的文本資料（例如，詩歌或錯誤日誌) 。
@@ -22,7 +22,19 @@ TextLineDataset 通常被用來以文字檔構建資料集（原文件中的一�
 主要包括刪除了文檔頁眉和頁腳，行號，章節標題。
 請下載這些已經被局部改動過的檔。
 ```
+```
+tf.data.TextLineDataset
+https://www.tensorflow.org/api_docs/python/tf/data/TextLineDataset
 
+A Dataset comprising lines from one or more text files.
+
+tf.data.TextLineDataset(
+    filenames, 
+    compression_type=None, 
+    buffer_size=None, 
+    num_parallel_reads=None
+)
+```
 
 # 環境設定與套件載入
 ```
