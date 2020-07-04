@@ -3,44 +3,40 @@
 資料來源:Load text
 https://www.tensorflow.org/tutorials/load_data/text
 
-Build vocabulary
-```
-
-```
-
 ```
 # 使用 tf.data 載入文本資料
+```
+本教程提供了一個如何使用 tf.data.TextLineDataset`來載入文字檔的示例。
 
-本教程提供了一個如何使用 `tf.data.TextLineDataset` 來載入文字檔的示例。
-
-`TextLineDataset` 通常被用來以文字檔構建資料集（原文件中的一行為一個樣本) 。
+TextLineDataset 通常被用來以文字檔構建資料集（原文件中的一行為一個樣本) 。
 這適用於大多數的基於行的文本資料（例如，詩歌或錯誤日誌) 。
 
 下面我們將使用相同作品（荷馬的伊利亞特）三個不同版本的英文翻譯，
 然後訓練一個模型來通過單行文本確定譯者。
+
+三個版本的翻譯分別來自于:
+ - [William Cowper](https://en.wikipedia.org/wiki/William_Cowper) — [text](https://storage.googleapis.com/download.tensorflow.org/data/illiad/cowper.txt)
+ - [Edward, Earl of Derby](https://en.wikipedia.org/wiki/Edward_Smith-Stanley,_14th_Earl_of_Derby) — [text](https://storage.googleapis.com/download.tensorflow.org/data/illiad/derby.txt)
+- [Samuel Butler](https://en.wikipedia.org/wiki/Samuel_Butler_%28novelist%29) — [text](https://storage.googleapis.com/download.tensorflow.org/data/illiad/butler.txt)
+
+本教程中使用的文字檔已經進行過一些典型的預處理，
+主要包括刪除了文檔頁眉和頁腳，行號，章節標題。
+請下載這些已經被局部改動過的檔。
+```
+
+
+# 環境設定與套件載入
 ```
 # -*- coding: utf-8 -*-
-
-
-"""
-## 環境搭建
-"""
 
 import tensorflow as tf
 
 import tensorflow_datasets as tfds
 import os
 
-"""
-三個版本的翻譯分別來自于:
- - [William Cowper](https://en.wikipedia.org/wiki/William_Cowper) — [text](https://storage.googleapis.com/download.tensorflow.org/data/illiad/cowper.txt)
- - [Edward, Earl of Derby](https://en.wikipedia.org/wiki/Edward_Smith-Stanley,_14th_Earl_of_Derby) — [text](https://storage.googleapis.com/download.tensorflow.org/data/illiad/derby.txt)
-- [Samuel Butler](https://en.wikipedia.org/wiki/Samuel_Butler_%28novelist%29) — [text](https://storage.googleapis.com/download.tensorflow.org/data/illiad/butler.txt)
-
-本教程中使用的文字檔已經進行過一些典型的預處理，主要包括刪除了文檔頁眉和頁腳，行號，章節標題。
-請下載這些已經被局部改動過的檔。
-"""
-
+```
+# 下載資料
+```
 DIRECTORY_URL = 'https://storage.googleapis.com/download.tensorflow.org/data/illiad/'
 FILE_NAMES = ['cowper.txt', 'derby.txt', 'butler.txt']
 
@@ -50,7 +46,8 @@ for name in FILE_NAMES:
 parent_dir = os.path.dirname(text_dir)
 
 parent_dir
-
+```
+```
 """
 ## 將文本載入到資料集中
 反覆運算整個文件，將整個文件載入到自己的資料集中。
@@ -85,7 +82,9 @@ all_labeled_data = all_labeled_data.shuffle(
 
 for ex in all_labeled_data.take(5):
   print(ex)
-
+```
+# 
+```
 """
 ## 將文本編碼成數位
 機器學習基於的是數位而非文本，所以字串需要被轉化成數位清單。
@@ -101,6 +100,8 @@ for ex in all_labeled_data.take(5):
 3. 將這些 `token` 放入一個 Python 集合中，借此來清除重複項。
 4. 獲取該詞彙表的大小以便於以後使用。
 """
+```
+```
 
 tokenizer = tfds.features.text.Tokenizer()
 
@@ -111,7 +112,9 @@ for text_tensor, _ in all_labeled_data:
 
 vocab_size = len(vocabulary_set)
 vocab_size
-
+```
+## 
+```
 """
 ### 樣本編碼
 通過傳遞 `vocabulary_set` 到 `tfds.features.text.TokenTextEncoder` 來構建一個編碼器。
