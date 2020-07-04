@@ -2,7 +2,6 @@
 ```
 資料來源:Load text
 https://www.tensorflow.org/tutorials/load_data/text
-
 ```
 # 使用 tf.data 載入文本資料
 ```
