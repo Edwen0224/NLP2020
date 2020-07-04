@@ -1,7 +1,6 @@
-#
+# 電影評論文本分類
 ```
 https://www.tensorflow.org/tutorials/keras/text_classification
-
 ```
 ```
 電影評論文本分類 Text classification with preprocessed text: Movie reviews
