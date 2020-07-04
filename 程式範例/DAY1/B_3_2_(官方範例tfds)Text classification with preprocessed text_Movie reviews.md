@@ -2,35 +2,8 @@
 ```
 https://www.tensorflow.org/tutorials/keras/text_classification
 ```
-```
-電影評論文本分類 Text classification with preprocessed text: Movie reviews
-
-This notebook classifies movie reviews as *positive* or *negative* using the text of the review. 
-This is an example of *binary*—or two-class—classification, 
-an important and widely applicable kind of machine learning problem.
-此筆記本（notebook）使用評論文本將影評分為*積極（positive）*或*消極（nagetive）*兩類。
-這是一個*二元（binary）*或者二分類問題，一種重要且應用廣泛的機器學習問題。
-
-我們將使用來源於[網路電影資料庫（Internet Movie Database）]的 IMDB 資料集（IMDB dataset），其包含 50,000 條影評文本。
-從該資料集切割出的25,000條評論用作訓練，
-另外 25,000 條用作測試。訓練集與測試集是*平衡的（balanced）*，
-意味著它們包含相等數量的積極和消極評論。
-
-We'll use the [IMDB dataset](https://www.tensorflow.org/datasets/catalog/imdb_reviews) 
-that contains the text of 50,000 movie reviews from the [Internet Movie Database](https://www.imdb.com/). 
-These are split into 25,000 reviews for training and 25,000 reviews for testing. 
-The training and testing sets are *balanced*, meaning they contain an equal number of positive and negative reviews.
-```
-```
-此notebook使用tf.keras，它是一個 Tensorflow 中用於構建和訓練模型的高級API。
-This notebook uses [tf.keras](https://www.tensorflow.org/guide/keras), 
-a high-level API to build and train models in TensorFlow. 
 
 
-For a more advanced text classification tutorial using `tf.keras`, 
-see the [MLCC Text Classification Guide]
-(https://developers.google.com/machine-learning/guides/text-classification/).
-```
 
 # 環境設定Setup
 ```
