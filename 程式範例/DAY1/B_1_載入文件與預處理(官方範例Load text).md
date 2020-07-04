@@ -151,25 +151,26 @@ def encode_map_fn(text, label):
 
 
 all_encoded_data = all_labeled_data.map(encode_map_fn)
-
-"""
-## 將資料集分割為測試集和訓練集且進行分支
-
+```
+# 將資料集分割為測試集和訓練集且進行分支
+```
 使用 `tf.data.Dataset.take` 和 `tf.data.Dataset.skip` 來建立一個小一些的測試資料集和稍大一些的訓練資料集。
 
 在資料集被傳入模型之前，資料集需要被分批。
 最典型的是，每個分支中的樣本大小與格式需要一致。
 但是資料集中樣本並不全是相同大小的（每行文本字數並不相同）。
 因此，使用 `tf.data.Dataset.padded_batch`（而不是 `batch` ）將樣本填充到相同的大小。
-"""
+```
 
+```
 train_data = all_encoded_data.skip(TAKE_SIZE).shuffle(BUFFER_SIZE)
 train_data = train_data.padded_batch(BATCH_SIZE)
 
 test_data = all_encoded_data.take(TAKE_SIZE)
 test_data = test_data.padded_batch(BATCH_SIZE)
 
-"""現在，test_data 和 train_data 不是（ `example, label` ）對的集合，而是批次的集合。每個批次都是一對（*多樣本*, *多標籤* ），表示為陣列。"""
+"""現在，test_data 和 train_data 不是（ `example, label` ）對的集合，而是批次的集合。
+每個批次都是一對（*多樣本*, *多標籤* ），表示為陣列。"""
 
 sample_text, sample_labels = next(iter(test_data))
 
@@ -178,37 +179,33 @@ sample_text[0], sample_labels[0]
 """由於我們引入了一個新的 token 來編碼（填充零），因此詞彙表大小增加了一個。"""
 
 vocab_size += 1
-
-"""
-## 建立模型
-
-第一層將整數表示轉換為密集向量嵌入。更多內容請查閱 [Word Embeddings](../../tutorials/sequences/word_embeddings) 教程。
+```
+# 建立模型
+```
+第一層將整數表示轉換為密集向量嵌入。
 
 下一層是 [LSTM](http://colah.github.io/posts/2015-08-Understanding-LSTMs/) 層，它允許模型利用上下文中理解單詞含義。 
 LSTM 上的雙向包裝器有助於模型理解當前資料點與其之前和之後的資料點的關係。
 
 最後，我們將獲得一個或多個緊密連接的層，其中最後一層是輸出層。
 輸出層輸出樣本屬於各個標籤的概率，最後具有最高概率的分類標籤即為最終預測結果。
-"""
-
+```
+```
 model = tf.keras.Sequential()
-
 model.add(tf.keras.layers.Embedding(vocab_size, 64))
-
 model.add(tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(64)))
 
-""""""
+# 一個或多個緊密連接的層::編輯 `for` 行的列表去檢測層的大小
 
-# 一個或多個緊密連接的層
-# 編輯 `for` 行的列表去檢測層的大小
 for units in [64, 64]:
   model.add(tf.keras.layers.Dense(units, activation='relu'))
 
 # 輸出層。第一個參數是標籤個數。
 model.add(tf.keras.layers.Dense(3, activation='softmax'))
-
+```
+# 編譯模型
+```
 """
-編譯模型。
 對於一個 softmax 分類模型來說，通常使用 `sparse_categorical_crossentropy` 作為其損失函數。
 你可以嘗試其他的優化器，但是 `adam` 是最常用的。
 """
@@ -216,17 +213,15 @@ model.add(tf.keras.layers.Dense(3, activation='softmax'))
 model.compile(optimizer='adam',
               loss='sparse_categorical_crossentropy',
               metrics=['accuracy'])
+```
 
-"""
-## 訓練模型
-
-利用提供的資料訓練出的模型有著不錯的精度（大約 83% ）。
-"""
+# 訓練模型
+```
+# 利用提供的資料訓練出的模型有著不錯的精度（大約 83% ）
 
 model.fit(train_data, epochs=3, validation_data=test_data)
 
 eval_loss, eval_acc = model.evaluate(test_data)
 
 print('\nEval loss: {}, Eval accuracy: {}'.format(eval_loss, eval_acc))
-
 ```
