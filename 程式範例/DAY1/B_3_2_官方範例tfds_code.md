@@ -117,7 +117,7 @@ for example_batch, label_batch in train_batches.take(2):
   print("Batch shape:", example_batch.shape)
   print("label shape:", label_batch.shape)
 ```
-# Build the model
+# 構建模型Build the model
 ```
 model = keras.Sequential([
   keras.layers.Embedding(encoder.vocab_size, 16),
@@ -126,14 +126,14 @@ model = keras.Sequential([
 
 model.summary()
 ```
-# 
+# 配置模型
 ```
 model.compile(optimizer='adam',
               loss=tf.losses.BinaryCrossentropy(from_logits=True),
               metrics=['accuracy'])
 
 ```
-# Train the model
+# 訓練模型Train the model
 ```
 history = model.fit(train_batches,
                     epochs=10,
@@ -141,14 +141,14 @@ history = model.fit(train_batches,
                     validation_steps=30)
 
 ```
-# Evaluate the model
+# 評估模型Evaluate the model
 ```
 loss, accuracy = model.evaluate(test_batches)
 
 print("Loss: ", loss)
 print("Accuracy: ", accuracy)
 ```
-#
+# 建立 準確率（accuracy）和損失值（loss）隨時間變化的圖表
 ```
 history_dict = history.history
 history_dict.keys()
