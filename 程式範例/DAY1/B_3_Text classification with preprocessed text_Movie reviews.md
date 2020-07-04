@@ -47,9 +47,8 @@ import numpy as np
 print(tf.__version__)
 
 ```
+# Download the IMDB dataset  下載 IMDB 資料集
 ```
-## Download the IMDB dataset  下載 IMDB 資料集
-
 IMDB 資料集已經打包在 Tensorflow `tfds` 中。
 該資料集已經經過預處理，
 評論（單詞序列）已經被轉換為整數序列，其中每個整數表示字典中的特定單詞。
@@ -75,7 +74,7 @@ To encode your own text see the [Loading text tutorial](../load_data/text.ipynb)
 ```
 
 ## Try the encoder
-
+```
  The dataset `info` includes the text encoder (a `tfds.features.text.SubwordTextEncoder`).
  
  tfds.features.text.SubwordTextEncoder
