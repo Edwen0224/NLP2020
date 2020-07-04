@@ -25,6 +25,10 @@ Gate NLP library
 ```
 
 ```
+##
+```
+https://developers.google.com/machine-learning/guides/text-classification/
+```
 ### 中文自然語言處理
 ```
 以 jieba 與 gensim 探索文本主題：五月天人生無限公司歌詞分析 (I)
