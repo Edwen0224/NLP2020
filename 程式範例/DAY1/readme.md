@@ -3,11 +3,12 @@
 NLP
 NLP實戰: NTLK
 Tensorflow 2.x 與Keras
+text classification初探: binary classification vs multi-class classification
 ```
 ## 下午
 ```
 Word embbedding and word2vec
-text classification: binary classification vs multi-class classification
+text classification
 ```
 #### Natural Language Processing Libraries
 ```
