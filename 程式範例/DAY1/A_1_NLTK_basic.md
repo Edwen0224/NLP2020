@@ -1,10 +1,76 @@
 #
 ```
 
-
-
 ```
 
+# 英文自然語言處理的經典工具: NLTK
+```
+英文自然語言處理的經典工具: NLTK
+2019-07-30 ccs96307
+
+ NLTK 進行文本前處理的幾個流程項目：
+sentence segmentation (斷句)
+word segmentation (斷詞)
+pos (詞性標記)
+lemmatization (字型還原)
+stopword (停用詞)
+ner (命名實體辨識)
+
+https://clay-atlas.com/blog/2019/07/30/%E3%80%90nlp%E3%80%91nltk-%E5%9F%BA%E6%9C%AC%E6%95%99%E5%AD%B8/
+```
+### sentence segmentation (斷句)
+```
+nltk.download('punkt')
+```
+
+```
+import nltk
+
+text = """I went to Japan. (NOT I went to the Japan.)
+He played tennis with Ben. (NOT He played tennis with the Ben.)
+They had breakfast at 9 o’clock. (NOT They had a breakfast at 9 o'clock.)
+(Some words don't have an article. We don't usually use articles for countries, meals or people.)"""
+
+sentences = nltk.sent_tokenize(text)
+sentences
+```
+### word segmentation (斷詞)
+```
+from nltk import word_tokenize
+##tokens = word_tokenize(raw)
+#tokens = [tokenizer.tokenize(sent) for sent in sentences]
+tokens = [word_tokenize(sent) for sent in sentences]
+tokens
+```
+### pos (詞性標記)
+```
+nltk.download('averaged_perceptron_tagger')
+```
+```
+pos = [nltk.pos_tag(token) for token in tokens]
+pos
+```
+
+# Python自然語言處理 NLTK 庫用法入門教程【經典】
+```
+指令碼專欄 · 發表 2018-06-26
+https://www.itread01.com/article/1529980432.html
+```
+```
+from bs4 import BeautifulSoup
+import urllib.request
+import nltk
+
+response = urllib.request.urlopen('http://php.net/')
+html = response.read()
+soup = BeautifulSoup(html,"html5lib")
+text = soup.get_text(strip=True)
+
+tokens = [t for t in text.split()]
+freq = nltk.FreqDist(tokens)
+for key,val in freq.items():
+  print (str(key) + ':' + str(val))
+```
 # Corpus語料庫 and WordNet
 ```
 # 存取NLTK內建的語料庫Corpus
@@ -180,7 +246,7 @@ print('Average Polysemy of ', type,': ' ,  count/len(lemmas))
 3.6　編輯距離——編寫計算兩個字串之間編輯距離的演算法
 3.7　處理兩篇短文並提取共有詞彙
 ```
-# 3.2　分詞——學習使用NLTK內置的分詞器
+# 3.2　分詞Tokenization ——學習使用NLTK內置的分詞器inbuilt tokenizers of NLTK
 ```
 from nltk.tokenize import LineTokenizer, SpaceTokenizer, TweetTokenizer
 from nltk import word_tokenize
@@ -199,7 +265,7 @@ print("Tweet Tokenizer output :",tTokenizer.tokenize("This is a cooool #dummysmi
 ```
 
 
-# 3.3　詞幹提取——學習使用NLTK內置的詞幹提取器
+# 3.3　詞幹提取Stemming——學習使用NLTK內置的詞幹提取器 inbuilt stemmers of NLTK
 ```
 from nltk import PorterStemmer, LancasterStemmer, word_tokenize
 
@@ -217,7 +283,7 @@ print(lStems)
 ```
 
 
-# 3.4　詞形還原——學習使用NLTK中的WordnetLemmatizer函數
+# 3.4　詞形還原Lemmatization——學習使用NLTK中的WordnetLemmatizer函數
 ```
 nltk.download('gutenberg')
 nltk.download('stopwords')
@@ -243,7 +309,7 @@ fdist.plot()
 ```
 
 
-# 3.5　停用詞——學習使用停用詞語料庫及其應用
+# 3.5　停用詞Stopwords ——學習使用停用詞語料庫及其應用
 ```
 
 
@@ -251,7 +317,7 @@ fdist.plot()
 ```
 
 
-#  3.6　編輯距離——編寫計算兩個字串之間編輯距離的演算法
+#  3.6　編輯距離Edit distance——編寫計算兩個字串之間編輯距離的演算法writing your own algorithm to find edit distance between two strings
 ```
 
 from nltk.metrics.distance import edit_distance
@@ -276,7 +342,7 @@ print("NLTK Algorithm :",edit_distance("hand", "and"))
 ```
 
 
-# 3.7　處理兩篇短文並提取共有詞彙
+# 3.7　處理兩篇短文並提取共有詞彙Processing two short stories and extracting the common vocabulary between two of them
 ```
 story1 = """In a far away kingdom, there was a river. This river was home to many golden swans. The swans spent most of their time on the banks of the river. Every six months, the swans would leave a golden feather as a fee for using the lake. The soldiers of the kingdom would collect the feathers and deposit them in the royal treasury. 
 One day, a homeless bird saw the river. "The water in this river seems so cool and soothing. I will make my home here," thought the bird. 
@@ -325,11 +391,11 @@ Following are the most common 10 words in the bag minus the stopwords
 
 ```
 
-#
+# 作業:完成文章的練習
 ```
-
-
-
+Python自然語言處理 NLTK 庫用法入門教程【經典】
+指令碼專欄 · 發表 2018-06-26
+https://www.itread01.com/article/1529980432.html
 ```
 
 
