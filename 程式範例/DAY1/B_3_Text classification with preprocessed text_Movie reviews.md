@@ -23,11 +23,13 @@ The training and testing sets are *balanced*, meaning they contain an equal numb
 ```
 ```
 此notebook使用tf.keras，它是一個 Tensorflow 中用於構建和訓練模型的高級API。
-This notebook uses [tf.keras](https://www.tensorflow.org/guide/keras), a high-level API to build and train models in TensorFlow. 
+This notebook uses [tf.keras](https://www.tensorflow.org/guide/keras), 
+a high-level API to build and train models in TensorFlow. 
 
 
 For a more advanced text classification tutorial using `tf.keras`, 
-see the [MLCC Text Classification Guide](https://developers.google.com/machine-learning/guides/text-classification/).
+see the [MLCC Text Classification Guide]
+(https://developers.google.com/machine-learning/guides/text-classification/).
 ```
 
 # 環境設定Setup
