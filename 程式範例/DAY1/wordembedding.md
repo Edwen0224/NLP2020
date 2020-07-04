@@ -12,6 +12,10 @@ A對應的向量為[0.1 0.6 -0.5]，B對應的向量為[-0.2 0.9 0.7]  （此處
 作者：li Eta
 連結：https://www.zhihu.com/question/32275069/answer/61059440
 ```
+# embedding@keras
+```
+https://github.com/tensorflow/tensorflow/blob/v2.2.0/tensorflow/python/keras/layers/embeddings.py#L35-L203
+```
 # word embedding前世今生
 ```
 詞的分散式表示distributed representation
