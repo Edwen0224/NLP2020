@@ -157,7 +157,6 @@ Fine-tuning：這個主要借鑒於CV
 State-of-the-art Natural Language Processing for PyTorch and TensorFlow 2.0
 https://github.com/huggingface/transformers
 
-
 http://speech.ee.ntu.edu.tw/~tlkagk/courses_DLHLP20.html
 ```
 
