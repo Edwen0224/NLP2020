@@ -34,9 +34,9 @@ https://fasttext.cc/docs/en/english-vectors.html
 ```
 # Ch2
 ## 兩大案例
-### 2.1 Preprocessing Email Spam Classification Example
-### 2.2 Preprocessing Movie Sentiment Classification Example Data
-##
+### 2.1 Preprocessing Email Spam Classification Example 垃圾信偵測
+### 2.2 Preprocessing Movie Sentiment Classification Example Data 影評
+## 三大類模型
 ### 2.3 Generalized Linear Models
 ### 2.4 Decision-Tree-Based Models
 ### 2.5 Neural Network Models
@@ -72,7 +72,6 @@ In this section, we will train two representative pretrained neural network lang
 3	3.3	Dual Task Learning of IMDB and spam detection	https://www.kaggle.com/azunre/tl-for-nlp-section3-3-multi-task-learning
 3	3.4	Domain adaptation of IMDB classifier to new domain of Book Review Classification	
 ```
-# 3-1-movies-word-embeddings
 
 
 # 4 Deep Transfer Learning for NLP with Recurrent Neural Networks
