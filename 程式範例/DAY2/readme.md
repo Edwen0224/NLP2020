@@ -1,5 +1,21 @@
 #
 ```
+Word embeddings
+
+RNN Model
+
+Transfer Learning in NLP
+```
+# Word embeddings
+```
+
+```
+# RNN Model
+```
+
+```
+# Transfer Learning in NLP
+```
 Text classification with TensorFlow Hub: Movie reviews
 https://www.tensorflow.org/tutorials/keras/text_classification_with_hub
 
