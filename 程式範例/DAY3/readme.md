@@ -39,3 +39,19 @@ arXiv:1810.04805
 Fine-tuning a BERT model
 https://tensorflow.google.cn/official_models/fine_tuning_bert
 ```
+### GPT-3
+```
+Language Models are Few-Shot Learners
+Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, 
+Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, 
+Rewon Child, Aditya Ramesh, Daniel M. Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, 
+Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, Dario Amodei
+
+https://arxiv.org/abs/2005.14165
+https://github.com/openai/gpt-3
+[research paper review] GPT-3 : Language Models are Few-Shot Learners
+https://www.youtube.com/watch?v=Mq97CF02sRY
+
+GPT-3: Language Models are Few-Shot Learners (Paper Explaine
+https://www.youtube.com/watch?v=SY5PvZrJhLE
+```
