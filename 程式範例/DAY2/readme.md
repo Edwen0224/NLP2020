@@ -6,11 +6,15 @@ RNN Model
 
 Transfer Learning in NLP
 ```
-# Word embeddings
+# Word embeddings(1)
+```
+one-hot 編碼
+```
 ```
 k-hot 編碼
 Text Classification初探
 ```
+# Word embeddings(2)
 ```
 Load text
 https://tensorflow.google.cn/tutorials/load_data/text
