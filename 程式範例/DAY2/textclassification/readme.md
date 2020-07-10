@@ -12,6 +12,16 @@ https://www.itread01.com/content/1557387604.html
 
 https://github.com/Apm5/tensorflow_2.0_tutorial/tree/master/RNN
 ```
+```
+以 colab進行gensim 訓練中文詞向量
+https://home.gamer.com.tw/creationDetail.php?sn=4625319
+
+在Colab中利用gensim的Word2Vec建立RNN要使用的Word Embedding
+https://www.youtube.com/watch?v=U2TT5qgCTdk
+
+https://github.com/zake7749/word2vec-tutorial
+
+```
 #
 ```
 文本分类实战（十）—— BERT 预训练模型
