@@ -1,10 +1,16 @@
 #
 ```
+Text Preprocessing
+
 Word embeddings
 
 RNN Model
 
 Transfer Learning in NLP
+```
+# Text Preprocessing
+```
+
 ```
 # Word embeddings(1)
 ```
@@ -29,7 +35,7 @@ https://tensorflow.google.cn/tutorials/keras/text_classification
 ```
 # RNN Model
 ```
-
+RNN.md
 ```
 # Transfer Learning in NLP
 ```
