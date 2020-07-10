@@ -8,7 +8,20 @@ Transfer Learning in NLP
 ```
 # Word embeddings
 ```
-
+k-hot 編碼
+Text Classification初探
+```
+```
+Load text
+https://tensorflow.google.cn/tutorials/load_data/text
+```
+```
+Word embeddings
+https://tensorflow.google.cn/tutorials/text/word_embeddings
+```
+```
+Text classification with preprocessed text: Movie reviews
+https://tensorflow.google.cn/tutorials/keras/text_classification
 ```
 # RNN Model
 ```
@@ -18,7 +31,4 @@ Transfer Learning in NLP
 ```
 Text classification with TensorFlow Hub: Movie reviews
 https://www.tensorflow.org/tutorials/keras/text_classification_with_hub
-
-使用 Keras 和 Tensorflow Hub 对电影评论进行文本分类
-https://tensorflow.google.cn/tutorials/keras/text_classification_with_hub#download_the_imdb_dataset
 ```
