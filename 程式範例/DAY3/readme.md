@@ -31,6 +31,11 @@ GPT
 ```
 # BERT(2018)
 ```
+Devlin, J., Chang, M.-W., Lee, K., and Toutanova,K. (2019). 
+BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding.
+arXiv:1810.04805 
+```
+```
 Fine-tuning a BERT model
 https://tensorflow.google.cn/official_models/fine_tuning_bert
 ```
