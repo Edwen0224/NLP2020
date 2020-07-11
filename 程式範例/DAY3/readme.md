@@ -39,6 +39,15 @@ arXiv:1810.04805
 Fine-tuning a BERT model
 https://tensorflow.google.cn/official_models/fine_tuning_bert
 ```
+```
+http://mccormickml.com/tutorials/
+
+Pytorch
+BERT Application Examples:
+Word Embeddings (post, notebook)
+Sentence Classification (post, notebook)
+Document Classification (video, notebook)
+```
 ### GPT-3(2020)
 ```
 Language Models are Few-Shot Learners
