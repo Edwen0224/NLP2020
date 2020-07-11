@@ -292,7 +292,7 @@ arXiv:2004.11648
 GCAN: Graph-aware Co-Attention Networks for Explainable Fake News Detection on Social Media
 Authors: Yi-Ju Lu, Cheng-Te Li
 ```
-# Text Geberation
+# Text Generation
 ```
 Google開源可即時產生精確文字的AI模型LaserTagger
 LaserTagger的預測速度，是常用文字處理方法Seq2seq的100倍，可用在許多需要即時回應的場景
