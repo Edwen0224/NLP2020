@@ -21,6 +21,7 @@ https://github.com/ageron/handson-ml2
 ```
 tf.keras 技術者們必讀！深度學習攻略手冊
 施威銘研究室 著 旗標科技  2020-02-13
+https://www.tenlong.com.tw/products/9789863126034?list_name=srh
 
 第 6 章 預先訓練自己的中文詞向量
 6-0 為什麼要預先訓練詞向量
