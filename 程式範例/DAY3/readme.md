@@ -82,7 +82,6 @@ https://arxiv.org/abs/1907.11692
 Cross-lingual Language Model Pretraining
 Guillaume Lample, Alexis Conneau
 https://arxiv.org/abs/1901.07291
-
 ```
 ### Megatron-LM(2019)
 ```
@@ -91,6 +90,12 @@ Mohammad Shoeybi, Mostofa Patwary, Raul Puri, Patrick LeGresley, Jared Casper, B
 https://arxiv.org/abs/1909.08053
 
 https://github.com/NVIDIA/Megatron-LM
+```
+### XLNet(2019)
+```
+XLNet: Generalized Autoregressive Pretraining for Language Understanding
+Zhilin Yang, Zihang Dai, Yiming Yang, Jaime Carbonell, Ruslan Salakhutdinov, Quoc V. Le
+https://arxiv.org/abs/1906.08237
 ```
 
 ### BERT(2018)
