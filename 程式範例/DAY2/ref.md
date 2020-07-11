@@ -14,6 +14,16 @@ https://cs224d.stanford.edu/syllabus.html
 ```
 # ref
 ```
+Practical Natural Language Processing: A Comprehensive Guide to Building Real-World Nlp Systems
+Vajjala, Sowmya, Majumder, Bodhisattwa, Gupta, Anuj
+O'Reilly  2020-06-30
+https://www.tenlong.com.tw/products/9781492054054?list_name=srh
+https://www.oreilly.com/library/view/practical-natural-language/9781492054047/
+
+https://github.com/practical-nlp/practical-nlp
+```
+# ref 
+```
 https://github.com/oreilly-japan/deep-learning-from-scratch-2
 
 https://github.com/ageron/handson-ml2
