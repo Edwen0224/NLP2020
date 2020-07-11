@@ -1,4 +1,4 @@
-#
+# 1
 ```
 one-hot encoding using Keras
 https://www.educative.io/edpresso/how-to-perform-one-hot-encoding-using-keras
@@ -37,4 +37,39 @@ array([[1., 0., 0., 0., 0.],
        [0., 0., 0., 0., 1.],
        [1., 0., 0., 0., 0.],
        [0., 0., 1., 0., 0.]], dtype=float32)
+```
+
+# 2
+```
+Keras: One-hot Encode/Decode Sequence Data
+https://jovianlin.io/keras-one-hot-encode-decode-sequence-data/
+```
+
+```
+import numpy as np
+from keras.utils import to_categorical
+
+data = np.array([1, 5, 3, 8])
+print(data)
+
+def encode(data):
+    print('Shape of data (BEFORE encode): %s' % str(data.shape))
+    encoded = to_categorical(data)
+    print('Shape of data (AFTER  encode): %s\n' % str(encoded.shape))
+    return encoded
+ 
+encoded_data = encode(data)
+print(encoded_data)
+
+def decode(datum):
+    return np.argmax(datum)
+ 
+ 
+for i in range(encoded_data.shape[0]):
+    datum = encoded_data[i]
+    print('index: %d' % i)
+    print('encoded datum: %s' % datum)
+    decoded_datum = decode(encoded_data[i])
+    print('decoded datum: %s' % decoded_datum)
+    print()
 ```
