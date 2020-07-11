@@ -40,6 +40,14 @@ Skip-gram 跳字模型
 6-2-3 資料預處理：產生訓練 Word2vec 所需的資料集
 Wiki 資料集
 ```
+```
+Towards Tensorflow 2.0 系列
+https://ithelp.ithome.com.tw/users/20119971/ironman/2254?sc=iThelpR
+
+Towards Tensorflow 2.0：無痛打造AI模型（iT邦幫忙鐵人賽系列書）
+陳峻廷   博碩文化  2020-07-08
+http://www.drmaster.com.tw/Bookinfo.asp?BookID=MP22014#download
+```
 # 
 ```
 http://mccormickml.com/
