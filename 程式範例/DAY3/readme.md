@@ -3,18 +3,39 @@
 Neural machine translation(NMT)
 Question Answering 
 ```
+# Topic 1:Neural machine translation(NMT)
 
-# seq2seq
+### seq2seq(2014)
+```
+Sequence to Sequence Learning with Neural Networks
+Ilya Sutskever, Oriol Vinyals, Quoc V. Le
+https://arxiv.org/abs/1409.3215
+```
+```
+Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation
+Kyunghyun Cho, Bart van Merrienboer, Caglar Gulcehre, Dzmitry Bahdanau, Fethi Bougares, Holger Schwenk, Yoshua Bengio
+https://arxiv.org/abs/1406.1078
+```
+```
+Sequence-to-sequence Learning
+https://www.youtube.com/watch?v=ZjfjPzXw6og
+```
 ```
 Neural machine translation without attention
 ```
-# attention
+### attention
+```
+Attention Is All You Need
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin
+https://arxiv.org/abs/1706.03762
+```
 ```
 Neural machine translation with attention
 https://tensorflow.google.cn/tutorials/text/nmt_with_attention
 ```
 
-# Transformer model
+
+### Transformer model(2017)
 ```
 Attention Is All You Need
 Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin
@@ -24,11 +45,38 @@ https://arxiv.org/abs/1706.03762
 Transformer model for language understanding
 https://tensorflow.google.cn/tutorials/text/transformer
 ```
-# Pre-Trained model
+```
+Transformer
+https://www.youtube.com/watch?v=ugWDIIOHtPA
+```
+```
+淺談神經機器翻譯 & 用 Transformer 與 TensorFlow 2 英翻中
+https://leemeng.tw/neural-machine-translation-with-transformer-and-tensorflow2.html
+```
+### ELMO(Embeddings from Language Models)(2018)
+```
+Matthew Peters et al., "Deep Contextualized Word Representations," Proceedings of the 2018 Conference of the North
+American Chapter of the Association for Computational Linguistics: Human Language Technologies I (2018): 2227-2237.
+
+Deep contextualized word representations
+Matthew E. Peters, Mark Neumann, Mohit Iyyer, Matt Gardner, Christopher Clark, Kenton Lee, Luke Zettlemoyer
+https://arxiv.org/abs/1802.05365
+```
+```
+ELMo原理解析及简单上手使用
+https://zhuanlan.zhihu.com/p/51679783
+```
+```
+ELMO, BERT, GPT
+https://www.youtube.com/watch?v=UYPa347-DdE
+```
+
+## Pre-Trained model
 ```
 GPT 
 ```
-# BERT(2018)
+
+### BERT(2018)
 ```
 Devlin, J., Chang, M.-W., Lee, K., and Toutanova,K. (2019). 
 BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding.
@@ -39,6 +87,11 @@ Fine-tuning a BERT model
 https://tensorflow.google.cn/official_models/fine_tuning_bert
 ```
 ```
+進擊的 BERT：NLP 界的巨人之力與遷移學習
+2019-07-10 (Wed) 48,073 views
+https://leemeng.tw/attack_on_bert_transfer_learning_in_nlp.html
+```
+```
 http://mccormickml.com/tutorials/
 
 Pytorch
@@ -46,6 +99,14 @@ BERT Application Examples:
 Word Embeddings (post, notebook)
 Sentence Classification (post, notebook)
 Document Classification (video, notebook)
+```
+### GPT 1-2-3
+```
+直觀理解 GPT-2 語言模型並生成金庸武俠小說
+https://leemeng.tw/gpt2-language-model-generate-chinese-jing-yong-novels.html
+
+讓 AI 寫點金庸：如何用 TensorFlow 2.0 及 TensorFlow.js 寫天龍八部
+https://leemeng.tw/how-to-generate-interesting-text-with-tensorflow2-and-tensorflow-js.html
 ```
 ### GPT-3(2020)
 ```
@@ -58,8 +119,13 @@ Sam McCandlish, Alec Radford, Ilya Sutskever, Dario Amodei
 
 https://arxiv.org/abs/2005.14165
 https://github.com/openai/gpt-3
+```
+```
 [research paper review] GPT-3 : Language Models are Few-Shot Learners
 https://www.youtube.com/watch?v=Mq97CF02sRY
+```
+```
+http://speech.ee.ntu.edu.tw/~tlkagk/courses/DLHLP20/GPT3%20(v6).pdf
 
 GPT-3: Language Models are Few-Shot Learners (Paper Explaine
 https://www.youtube.com/watch?v=SY5PvZrJhLE
