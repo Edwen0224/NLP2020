@@ -1,5 +1,6 @@
-#
+# Topics
 ```
+Text Classification
 Text Preprocessing
 
 Word embeddings
@@ -7,6 +8,14 @@ Word embeddings
 RNN Model
 
 Transfer Learning in NLP
+```
+```
+Text Geberation
+
+Char-RNN
+```
+```
+Image Caption
 ```
 # Text Preprocessing
 ```
@@ -42,17 +51,3 @@ RNN.md
 Text classification with TensorFlow Hub: Movie reviews
 https://www.tensorflow.org/tutorials/keras/text_classification_with_hub
 ```
-
-# Text Generation
-```
-
-```
-
-```
-讓 AI 寫點金庸：如何用 TensorFlow 2.0 及 TensorFlow.js 寫天龍八部
-https://leemeng.tw/how-to-generate-interesting-text-with-tensorflow2-and-tensorflow-js.html
-```
-```
-手把手程式實作分享系列： 讓A.I自己寫文章 英文實作篇 //莎士比亞//
-```
-# SIMON===Semantic Inference for the Modeling of ONtologies
