@@ -193,7 +193,34 @@ http://speech.ee.ntu.edu.tw/~tlkagk/courses/DLHLP20/GPT3%20(v6).pdf
 GPT-3: Language Models are Few-Shot Learners (Paper Explaine
 https://www.youtube.com/watch?v=SY5PvZrJhLE
 ```
+### 百度的預訓練語言模型ERNIE[2019]
+```
+ERNIE 2.0: A Continual Pre-training Framework for Language Understanding
+Yu Sun, Shuohuan Wang, Yukun Li, Shikun Feng, Hao Tian, Hua Wu, Haifeng Wang
+https://arxiv.org/abs/1907.12412
 
+http://research.baidu.com/Blog/index-view?id=128
+
+https://github.com/PaddlePaddle/ERNIE
+```
+```
+自然語言處理標竿2019最後一波測試，百度打敗微軟、Google
+百度的預訓練語言模型ERNIE，在GLUE平台2019年底最後一次16項包含中英文的自然語言處理測試中拿下第一，表現優於Google、微軟和卡內基美隆大學
+文/林妍溱 | 2020-01-01發表  https://www.ithome.com.tw/news/135127
+```
+# Chatbot
+```
+Google發表目前最先進的開放領域聊天機器人Meena
+Meena模型具有26億個參數，使用341 GB文本訓練，其回應的合理性和具體性，與人類相差不遠
+文/李建興 | 2020-01-31發表
+https://www.ithome.com.tw/news/135572
+```
+```
+Google更新Dialogflow AI引擎，使用者可創建更強大的虛擬客服
+Dialogflow新增Mega Agent，提供高達2萬個意圖，使用者能創建對話能力更強的代理
+文/李建興 | 2020-02-20發表
+https://www.ithome.com.tw/news/135925
+```
 # Question Answering 
 ```
 
@@ -264,4 +291,14 @@ Authors: Adrian Groza
 arXiv:2004.11648 
 GCAN: Graph-aware Co-Attention Networks for Explainable Fake News Detection on Social Media
 Authors: Yi-Ju Lu, Cheng-Te Li
+```
+# Text Geberation
+```
+Google開源可即時產生精確文字的AI模型LaserTagger
+LaserTagger的預測速度，是常用文字處理方法Seq2seq的100倍，可用在許多需要即時回應的場景
+文/李建興 | 2020-02-03發表
+https://www.ithome.com.tw/news/135610
+https://ai.googleblog.com/2020/01/encode-tag-and-realize-controllable-and.html
+
+https://github.com/google-research/lasertagger
 ```
