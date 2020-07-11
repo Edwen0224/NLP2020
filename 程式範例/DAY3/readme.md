@@ -70,10 +70,27 @@ https://zhuanlan.zhihu.com/p/51679783
 ELMO, BERT, GPT
 https://www.youtube.com/watch?v=UYPa347-DdE
 ```
-
-## Pre-Trained model
+### RoBERTa(2019)
 ```
-GPT 
+RoBERTa: A Robustly Optimized BERT Pretraining Approach
+Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer Levy, 
+Mike Lewis, Luke Zettlemoyer, Veselin Stoyanov
+https://arxiv.org/abs/1907.11692
+```
+### XLM(2019)
+```
+Cross-lingual Language Model Pretraining
+Guillaume Lample, Alexis Conneau
+https://arxiv.org/abs/1901.07291
+
+```
+### Megatron-LM(2019)
+```
+Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism
+Mohammad Shoeybi, Mostofa Patwary, Raul Puri, Patrick LeGresley, Jared Casper, Bryan Catanzaro
+https://arxiv.org/abs/1909.08053
+
+https://github.com/NVIDIA/Megatron-LM
 ```
 
 ### BERT(2018)
@@ -99,6 +116,34 @@ BERT Application Examples:
 Word Embeddings (post, notebook)
 Sentence Classification (post, notebook)
 Document Classification (video, notebook)
+```
+### BERT and its family
+```
+BERT and its family
+http://speech.ee.ntu.edu.tw/~tlkagk/courses/DLHLP20/BERT%20train%20(v8).pdf
+```
+#### DistilBERT(2019)
+```
+DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter
+Victor Sanh, Lysandre Debut, Julien Chaumond, Thomas Wolf
+https://arxiv.org/abs/1910.01108
+```
+```
+Smaller, faster, cheaper, lighter: Introducing DistilBERT, a distilled version of BERT
+https://medium.com/huggingface/distilbert-8cf3380435b5
+```
+```
+Distilling from BERT论文笔记
+https://zhuanlan.zhihu.com/p/73046023
+```
+### Multilingual BERT
+```
+How multilingual is Multilingual BERT?
+Telmo Pires, Eva Schlinger, Dan Garrette
+https://arxiv.org/abs/1906.01502
+```
+```
+http://speech.ee.ntu.edu.tw/~tlkagk/courses/DLHLP20/Multi%20(v2).pdf
 ```
 ### GPT 1-2-3
 ```
