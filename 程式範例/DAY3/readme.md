@@ -97,7 +97,10 @@ XLNet: Generalized Autoregressive Pretraining for Language Understanding
 Zhilin Yang, Zihang Dai, Yiming Yang, Jaime Carbonell, Ruslan Salakhutdinov, Quoc V. Le
 https://arxiv.org/abs/1906.08237
 ```
-
+```
+中文XLNet预训练模型
+https://github.com/ymcui/Chinese-XLNet
+```
 ### BERT(2018)
 ```
 Devlin, J., Chang, M.-W., Lee, K., and Toutanova,K. (2019). 
