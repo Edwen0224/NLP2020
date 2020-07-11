@@ -71,6 +71,15 @@ https://zhuanlan.zhihu.com/p/51679783
 ELMO, BERT, GPT
 https://www.youtube.com/watch?v=UYPa347-DdE
 ```
+### Universal Language Model Fine-tuning(ULM-Fit)[2018]
+```
+Universal Language Model Fine-tuning for Text Classification
+Jeremy Howard, Sebastian Ruder
+https://arxiv.org/abs/1801.06146
+
+J. Howard et al., “Universal Language Model Fine-tuning for Text Classification”, 
+Proc. of the 56th Annual Meeting of the Association for Computational Linguistics, 2018: 328-339
+```
 ### RoBERTa(2019)
 ```
 RoBERTa: A Robustly Optimized BERT Pretraining Approach
