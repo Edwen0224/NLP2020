@@ -1,8 +1,7 @@
-#
+# 主題
 ```
-
-
-
+Neural machine translation(NMT)
+Question Answering 
 ```
 
 # seq2seq
@@ -63,4 +62,17 @@ https://www.youtube.com/watch?v=Mq97CF02sRY
 
 GPT-3: Language Models are Few-Shot Learners (Paper Explaine
 https://www.youtube.com/watch?v=SY5PvZrJhLE
+```
+# Question Answering 
+```
+
+```
+```
+http://speech.ee.ntu.edu.tw/~tlkagk/courses_DLHLP20.html
+
+[DLHLP 2020] Deep Learning for Question Answering (1/2) (重新上傳)
+https://www.youtube.com/watch?v=gRfTfXCe3LA
+
+https://www.youtube.com/watch?v=gRfTfXCe3LA
+https://www.youtube.com/watch?v=h_Lptoq8spQ
 ```
