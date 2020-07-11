@@ -53,6 +53,7 @@ https://www.youtube.com/watch?v=ugWDIIOHtPA
 淺談神經機器翻譯 & 用 Transformer 與 TensorFlow 2 英翻中
 https://leemeng.tw/neural-machine-translation-with-transformer-and-tensorflow2.html
 ```
+### 大型語言模型
 ### ELMO(Embeddings from Language Models)(2018)
 ```
 Matthew Peters et al., "Deep Contextualized Word Representations," Proceedings of the 2018 Conference of the North
@@ -183,6 +184,7 @@ http://speech.ee.ntu.edu.tw/~tlkagk/courses/DLHLP20/GPT3%20(v6).pdf
 GPT-3: Language Models are Few-Shot Learners (Paper Explaine
 https://www.youtube.com/watch?v=SY5PvZrJhLE
 ```
+
 # Question Answering 
 ```
 
@@ -195,4 +197,62 @@ https://www.youtube.com/watch?v=gRfTfXCe3LA
 
 https://www.youtube.com/watch?v=gRfTfXCe3LA
 https://www.youtube.com/watch?v=h_Lptoq8spQ
+```
+# Fake Object Detection and Generation
+```
+Defending Against Neural Fake News
+Rowan Zellers, Ari Holtzman, Hannah Rashkin, Yonatan Bisk, Ali Farhadi, Franziska Roesner, Yejin Choi
+https://arxiv.org/abs/1905.12616
+```
+```
+使用NLP檢測和對抗AI生成的假新聞
+磐创 AI 2020-06-14
+https://blog.csdn.net/fendouaini/java/article/details/106744426
+
+GROVER—A State-of-the-Art Defense against Neural Fake News
+https://grover.allenai.org/
+
+https://rowanzellers.com/grover/
+
+https://github.com/rowanz/grover
+```
+```
+arXiv:2007.03316  
+Graph Neural Networks with Continual Learning for Fake News Detection from Social Media
+Authors: Yi Han, Shanika Karunasekera, Christopher Leckie
+```
+```
+arXiv:2006.11343  
+FakeCovid -- A Multilingual Cross-domain Fact Check News Dataset for COVID-19
+Authors: Gautam Kishore Shahi, Durgesh Nandini
+```
+```
+arXiv:2006.00885 
+CoAID: COVID-19 Healthcare Misinformation Dataset
+Authors: Limeng Cui, Dongwon Lee
+```
+```
+arXiv:2005.13770  
+DeepSonar: Towards Effective and Robust Detection of AI-Synthesized Fake Voices
+Authors: Run Wang, Felix Juefei-Xu, Yihao Huang, Qing Guo, Xiaofei Xie, Lei Ma, Yang Liu
+```
+```
+arXiv:2005.13270 
+BRENDA: Browser Extension for Fake News Detection
+Authors: Bjarte Botnevik, Eirik Sakariassen, Vinay Setty
+```
+```
+arXiv:2005.04938  
+A Deep Learning Approach for Automatic Detection of Fake News
+Authors: Tanik Saikh, Arkadipta De, Asif Ekbal, Pushpak Bhattacharyya
+```
+```
+arXiv:2004.12330  
+Detecting fake news for the new coronavirus by reasoning on the Covid-19 ontology
+Authors: Adrian Groza
+```
+```
+arXiv:2004.11648 
+GCAN: Graph-aware Co-Attention Networks for Explainable Fake News Detection on Social Media
+Authors: Yi-Ju Lu, Cheng-Te Li
 ```
