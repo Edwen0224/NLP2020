@@ -12,6 +12,7 @@ https://cs224d.stanford.edu/syllabus.html
 ```
 https://github.com/oreilly-japan/deep-learning-from-scratch-2
 
+https://github.com/ageron/handson-ml2
 ```
 # 
 ```
