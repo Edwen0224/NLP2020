@@ -12,3 +12,8 @@ https://radimrehurek.com/gensim/models/doc2vec.html
 
 https://radimrehurek.com/gensim/models/fasttext.html
 ```
+```
+Using FastText via Gensim
+https://github.com/RaRe-Technologies/gensim/blob/develop/docs/notebooks/FastText_Tutorial.ipynb
+
+```
