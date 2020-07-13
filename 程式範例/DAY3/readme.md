@@ -4,7 +4,18 @@ Neural machine translation(NMT)
 Question Answering 
 ```
 # Topic 1:Neural machine translation(NMT)
-
+```
+A Survey of Deep Learning Techniques for Neural Machine Translation
+https://arxiv.org/pdf/2002.07526.pdf
+```
+```
+Neural Machine Translation 
+https://google.github.io/seq2seq/nmt/
+```
+```
+Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)
+http://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/
+```
 ### seq2seq(2014)
 ```
 Sequence to Sequence Learning with Neural Networks
@@ -33,7 +44,10 @@ https://arxiv.org/abs/1706.03762
 Neural machine translation with attention
 https://tensorflow.google.cn/tutorials/text/nmt_with_attention
 ```
-
+```
+A neural chatbot using sequence to sequence model with attentional decoder
+https://github.com/chiphuyen/stanford-tensorflow-tutorials/tree/master/assignments/chatbot
+```
 
 ### Transformer model(2017)
 ```
