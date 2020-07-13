@@ -1,7 +1,7 @@
 #
 ```
-
 TensorFlow 2 — BERT: Movie Review Sentiment Analysis
+https://github.com/rickqiu/deep-learning/blob/master/TensorFlow2_BERT_Sentiment_Analysis.ipynb
 ```
 
 ```
