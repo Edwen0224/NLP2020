@@ -126,7 +126,9 @@ https://arxiv.org/abs/1911.03894
 ```
 # Google T5(2019)
 ```
-
+Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer
+Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu
+https://arxiv.org/abs/1910.10683
 ```
 # GPT  1,2,3
 ```
