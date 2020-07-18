@@ -133,15 +133,25 @@ https://arxiv.org/abs/1911.03894
 ```
 # GPT  1,2,3
 ```
-
+GPT-1
+Improving Language Understanding by Generative Pre-Training
+https://pdfs.semanticscholar.org/cd18/800a0fe0b668a1cc19f2ec95b5003d0a5035.pdf?_ga=2.19061950.70118991.1595022018-1533186678.1594848993
 ```
 
 ```
-
+GPT-2
+Language Models are Unsupervised Multitask Learners
+https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf
 ```
 
 ```
-
+GPT-3[2020]
+Language Models are Few-Shot Learners
+Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, 
+Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, 
+Daniel M. Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, 
+Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, Dario Amodei
+https://arxiv.org/abs/2005.14165
 ```
 # 2020
 ```
