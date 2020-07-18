@@ -93,13 +93,10 @@ arXiv:1607.06450, 2016
 ```
 # BERT[2018]
 ```
-
+BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova
+https://arxiv.org/abs/1810.04805
 ```
-
-```
-
-```
-
 ```
 A Primer in BERTology: What we know about how BERT works
 Anna Rogers, Olga Kovaleva, Anna Rumshisky
