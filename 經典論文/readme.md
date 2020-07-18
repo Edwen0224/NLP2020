@@ -91,7 +91,7 @@ arXiv:1607.06450, 2016
 ```
 
 ```
-# BERT
+# BERT[2018]
 ```
 
 ```
@@ -133,13 +133,13 @@ https://arxiv.org/abs/1911.03894
 ```
 # GPT  1,2,3
 ```
-GPT-1
+GPT-1[2018]
 Improving Language Understanding by Generative Pre-Training
 https://pdfs.semanticscholar.org/cd18/800a0fe0b668a1cc19f2ec95b5003d0a5035.pdf?_ga=2.19061950.70118991.1595022018-1533186678.1594848993
 ```
 
 ```
-GPT-2
+GPT-2[2019]
 Language Models are Unsupervised Multitask Learners
 https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf
 ```
