@@ -89,7 +89,8 @@ Jimmy Lei Ba, Jamie Ryan Kiros, and Geoffrey E Hinton.
 arXiv:1607.06450, 2016
 ```
 ```
-
+不同预训练模型的总结对比
+持续更新 2020-06-28
 ```
 # BERT[2018]
 ```
