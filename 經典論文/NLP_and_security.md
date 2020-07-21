@@ -27,6 +27,12 @@ Yi Han, Shanika Karunasekera, Christopher Leckie
 https://arxiv.org/abs/2007.03316
 ```
 
+```
+Generating Sentiment-Preserving Fake Online Reviews Using Neural Language Models and Their Human- and Machine-based Detection
+David Ifeoluwa Adelani, Haotian Mai, Fuming Fang, Huy H. Nguyen, Junichi Yamagishi, Isao Echizen
+https://arxiv.org/abs/1907.09177
+```
+
 # 人工智慧偽造品及其偵測
 ```
 facial forgery面部偽造
@@ -37,8 +43,20 @@ https://arxiv.org/abs/2006.11863
 ```
 
 ```
+Defending against GAN-based Deepfake Attacks via Transformation-aware Adversarial Faces
+Chaofei Yang, Lei Ding, Yiran Chen, Hai Li
+https://arxiv.org/abs/2006.07421
+```
 
-
+```
+MesoNet: a Compact Facial Video Forgery Detection Network
+Darius Afchar, Vincent Nozick, Junichi Yamagishi, Isao Echizen
+https://arxiv.org/abs/1809.00888
+```
+```
+Deep Face Forgery Detection
+Nika Dogonadze, Jana Obernosterer, Ji Hou
+https://arxiv.org/abs/2004.11804
 ```
 
 # Malware analysis
